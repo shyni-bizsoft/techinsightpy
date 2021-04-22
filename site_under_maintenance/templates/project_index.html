@@ -1,0 +1,124 @@
+{% load static %}
+
+<!--
+Created By:  "Madhan Krishna P"
+Designation: "Junior Python Developer"
+-->
+
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <title>Project Index</title>
+    <link rel="shortcut icon" href="{% static 'images/spklogo_login_spknet_Ogv_icon.ico' type='image/x-icon' %}">
+    <style type="text/css">
+      table, thead,td {
+        border-collapse: collapse;
+        border: 1px solid #000;
+      }
+      thead{
+        font-size: 26px;
+      }
+      tbody{
+        font-size: 24px;
+      }
+      input,button{
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 22px;
+        border-radius:8px;
+        width: 80px;
+        background-color: #3BB9FF;
+      }   
+    </style>
+
+  </head>
+
+  <body style="background-color:rgb(206, 234, 130)">
+    <div>
+      <img src="{% static 'images/SPKLogo_login_spknet.png' %}">
+      <center>
+        <label class="spk-page-title" style="position: relative; top: -40px;font-size: 33px;">Project Index</label>
+      </center>
+    </div>
+    <center>
+      <table width="70%" style="text-align: left;">
+        <thead>
+          <tr>
+            <th width="18%">Project: 1</th>
+            <th colspan="2">Employee Attendance (Deployed)</th>
+          </tr>
+        </thead>
+          <tr>
+            <td></td>
+            <td width="70%">1. Employee Worksheet(Attendance)</td>
+            <td><button type="button" onclick="window.open('http://spkattendance:9000/','_blank')">Link</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>2. Employee Attendance Monitor</td>
+            <td><button type="button" onclick="window.open('http://spkattendance:9000/attendance/','_blank')">Link</button></td>
+          </tr>
+          <thead>
+          <tr>
+            <th width="18%">Project: 2</th>
+            <th colspan="2">Shot Assignment/User Rating (Deployed/On Hold)</th>
+          </tr>
+        </thead>
+          <tr>
+            <td></td>
+            <td width="70%">1. Shot Assignment Page</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9002/Shot_Login/','_blank')">Link</button></td>
+          </tr>
+          <thead>
+          <tr>
+            <th width="18%">Project: 3</th>
+            <th colspan="2">Employee Personal/Official Information (Deployed)</th>
+          </tr>
+        </thead>
+          <tr>
+            <td></td>
+            <td width="70%">1. Employee Info</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9003/emp_info/','_blank')">Link</button></td>
+          </tr>
+          <thead>
+          <tr>
+            <th width="18%">Project: 4</th>
+            <th colspan="2">Leads Allocation System(Episodes/Statistics) (Under Development)</th>
+          </tr>
+        </thead>
+          <tr>
+            <td></td>
+            <td>1. Admin Dashboard</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9004/epi_allocat/','_blank')">Link</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>2. Leads Dashbord</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9004/myportal/','_blank')">Link</button></td>
+          </tr>
+          <thead>
+          <tr>
+            <th width="18%">Project: 5</th>
+            <th colspan="2">Task Portal for Technical team(Testing)</th>
+          </tr>
+        </thead>
+          <tr>
+            <td></td>
+            <td>1. Admin Dashboard</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9006/admin_dashboard/','_blank')">Link</button></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>2. Users Dashboard</td>
+            <td><button type="button" onclick="window.open('http://30.0.16.87:9006/my_task_portal/','_blank')">Link</button></td>
+          </tr>
+        </tbody>
+    </center>
+  </body>
+</html>
